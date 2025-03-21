@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Event Cards */
+.event-card {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Responsive Grid */
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(45deg, #0d6efd, #0b5ed7);
+    padding: 60px 0;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Event Details */
+.event-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
